@@ -9,7 +9,7 @@ def convertPNG(imgfile):
 #filen = r'linux.png'
     filen = imgfile  
     img = Image.open(filen)
-    img.save('linux2.ico', format = 'ICO', sizes=[(32,32)])
+    img.save('linux.ico', format = 'XBM', sizes=[(16,16)])
     print(filen)
 
 convertPNG(imgFile)
